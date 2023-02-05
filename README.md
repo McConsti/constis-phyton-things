@@ -5,5 +5,5 @@
 [![PyPI status](https://img.shields.io/pypi/status/alive-progress.svg)]
 
 
-
 first time using github and first time using phyton
+not sure how long i will keep updating this
