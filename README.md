@@ -1,8 +1,8 @@
 # Constis hack utilitys
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/alive-progress.svg)]
-[![PyPI status](https://img.shields.io/pypi/status/alive-progress.svg)]
+![Maintenance(https://img.shields.io/badge/Maintained%3F-yes-green.svg)]
+![PyPI pyversions(https://img.shields.io/pypi/pyversions/alive-progress.svg)]
+![PyPI status(https://img.shields.io/pypi/status/alive-progress.svg)]
 
 
 first time using github and first time using phyton
