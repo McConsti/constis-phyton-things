@@ -6,4 +6,7 @@
 ![Hev satus](https://img.shields.io/badge/HEV%20subsystem-yes-green)]
 
 first time using github and first time using phyton
-not sure how long i will keep updating this
+
+Use this at your own risk 
+
+See CHANGELOGS.md for ....changelogs
