@@ -10,3 +10,6 @@ first time using github and first time using phyton
 Use this at your own risk 
 
 See CHANGELOGS.md for ....changelogs
+
+You will need alive-progress:
+more info here: https://github.com/rsalmei/alive-progress
