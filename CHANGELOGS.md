@@ -1,3 +1,9 @@
+Hack ze world alpha added:
+Custom Windwos error message tool
+Windows error logger
+
+-------------------------------
+
 The Script edition added:
 -HEV MK.IV subsystem
 -Network scanner
