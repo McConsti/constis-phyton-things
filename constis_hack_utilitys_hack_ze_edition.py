@@ -4,30 +4,35 @@ import os
 import platform    # For getting the operating system name
 import time, sys
 import webbrowser
+import ctypes
 from alive_progress import alive_bar
 from datetime import datetime
+from playsound import playsound
+os.system("taskkill /f /im  Goodbye_pc") 
 
 print("""
-\u001b[36;1m
+\u001b[32m
 
-███████╗ ██████╗██████╗ ██╗██████╗ ████████╗
-██╔════╝██╔════╝██╔══██╗██║██╔══██╗╚══██╔══╝
-███████╗██║     ██████╔╝██║██████╔╝   ██║   
-╚════██║██║     ██╔══██╗██║██╔═══╝    ██║   
-███████║╚██████╗██║  ██║██║██║        ██║   
-╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝        ╚═╝   
+ _   _            _                                         _     _ 
+| | | |          | |                                       | |   | |
+| |_| | __ _  ___| | __     _______     __      _____  _ __| | __| |
+|  _  |/ _` |/ __| |/ /    |_  / _ \    \ \ /\ / / _ \| '__| |/ _` |
+| | | | (_| | (__|   <      / /  __/     \ V  V / (_) | |  | | (_| |
+\_| |_/\__,_|\___|_|\_\    /___\___|      \_/\_/ \___/|_|  |_|\__,_|
+                                                                                                                                                                                           
 
-~ The script edition ~
 
 """)
 
-print("\033[1;32m Welcome to Constis hack utilities \n")
+print("\u001b[35m Welcome to Constis hack utilities \n")
 print("--------------------------------")
 print("\033[1;37m Press 1 for a response test \n")
 print("\033[1;37m Press 2 to get your ip \n")
 print("\033[1;37m Press 3 to taskkill N/A \n")
 print("\033[1;37m Press 4 to Network scan \n")
-print("\033[1;37m Press 5 for the HEV subsystem \n")
+print("\033[1;37m Press 5 to error log (Windows only) \n")
+print("\033[1;37m Press 6 for the custom error message tool (Windows only) \n")
+print("\033[1;37m Press 22 for the HEV subsystem \n")
 
 
 test = 0
@@ -91,10 +96,30 @@ while True:
        test = int(input("INPUT>> "))
 
  if test == 5:
+     test = 0
+     ctypes.windll.user32.MessageBoxW(None, u"HEllo ur system has been error logged", u"Oh uh stinky", 4)
+     ctypes.windll.user32.MessageBoxW(None, u"And the worst thing is you can't escape", u"Oh uh stinky", 1)
+     ctypes.windll.user32.MessageBoxW(None, u"Delete c:/Windows/System32?", u"Oh uh stinky", 3)
+     ctypes.windll.user32.MessageBoxW(None, u"Ima do it anyway", u"Oh uh stinky", 1)
+     ctypes.windll.user32.MessageBoxW(None, u"Goodbye", u"Oh uh stinky", 5)
+     test = int(input("INPUT>> "))
+
+ if test == 6:
+    test = 0
+    msgbody = "yes"
+    msgtitle = "no"
+    #float thingy to get the text
+    msgbody = (input('Message body>> '))
+    msgtitle = (input('Message title>> '))
+    ctypes.windll.user32.MessageBoxW(None, msgbody, msgtitle, 4)
+    test = int(input("INPUT>>"))
+ 
+    
+ if test == 22:
       for total in 100, 100, 420:
           with alive_bar(total) as bar:
            for _ in range(100):
-            time.sleep(.01)
+            time.sleep(.001)
             bar()
       hev = 0
       print("""
@@ -117,18 +142,18 @@ while True:
       print("Welcome to the HEV MK.VI")
       print("\033[1;37m")
       while True:
-       hev = int(input("HEV> "))
+       hev = (input("HEV> "))
        if hev == 1:
             print("amogus")
        
-       if hev == 1:
+       if hev == 'bar()':
         hev = 0
-      #  for total in 100, 50, 420:
-       #     with alive_bar(total) as bar:
-       #      for _ in range(100):
-        #      time.sleep(.01)
-        #     bar()
-        hev = int(input("HEV> "))
+        for total in 100, 50, 420:
+           with alive_bar(total) as bar:
+            for _ in range(100):
+             time.sleep(.01)
+            bar()
+        hev = (input("HEV> "))
 
        if hev == 2:
             hev= 0
@@ -150,5 +175,5 @@ while True:
 
        if hev == 3:
         hev = 0
-        webbrowser.open('https://github.com/McConsti/test')  # Go to example.com
-        hev = int(input("HEV> "))
+        webbrowser.open('https://github.com/McConsti/constis-phyton-things')  # Go to example.com
+        hev = (input("HEV> "))
