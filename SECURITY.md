@@ -1,1 +1,6 @@
-I wont insure that you stay unharmed by using this ""software"". if you get caught then its your fault 
+How to deal with dangerous vurnobilities
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+If you would like to report any major vurnobility then just do ir here 
+Dont send vurnobility to other people or accept any modified versions if you are not sure what the code does.
+
+Stay safe!
