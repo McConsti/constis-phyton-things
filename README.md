@@ -5,7 +5,7 @@
 ![PyPI status](https://img.shields.io/badge/status-in%20dev-ff69b4)]
 ![Hev satus](https://img.shields.io/badge/HEV%20subsystem-yes-green)]
 
-first time using github and first time using phyton
+first time using github and first time using pyhton
 
 Use this at your own risk 
 
