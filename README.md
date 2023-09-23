@@ -1,15 +1,4 @@
-# Constis hack utilitys
+# Hack-ze-world-final
 
-![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]
-![PyPI pyversions](https://img.shields.io/pypi/pyversions/alive-progress.svg)]
-![PyPI status](https://img.shields.io/badge/status-in%20dev-ff69b4)]
-![Hev satus](https://img.shields.io/badge/HEV%20subsystem-yes-green)]
-
-first time using github and first time using phyton
-
-Use this at your own risk 
-
-See CHANGELOGS.md for ....changelogs
-
-You will need alive-progress:
-more info here: https://github.com/rsalmei/alive-progress
+This is the final version as this project will be put on hold.
+Do not ask for updates as i dont feel like developing this.
